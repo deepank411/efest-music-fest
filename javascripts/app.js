@@ -1,6 +1,0 @@
-console.log("testing 1");
-console.log("testing 2");
-console.log("testing 4");
-console.log("testing 5");
-
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJhcHAuanMiXSwic291cmNlc0NvbnRlbnQiOlsiY29uc29sZS5sb2coXCJ0ZXN0aW5nIDFcIik7XG5jb25zb2xlLmxvZyhcInRlc3RpbmcgMlwiKTtcbmNvbnNvbGUubG9nKFwidGVzdGluZyA0XCIpO1xuY29uc29sZS5sb2coXCJ0ZXN0aW5nIDVcIik7XG4iXSwiZmlsZSI6ImFwcC5qcyJ9
