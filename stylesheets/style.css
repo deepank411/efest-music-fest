@@ -13,8 +13,8 @@ html, body{
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
-   /*margin: 0;
-   padding: 0;*/
+   margin: 0;
+   padding: 0;
 }
 
 body {
@@ -29,8 +29,8 @@ a{
    color: black;
 }
 
-.main-section{
-   background: url(../images/t_l_t.jpg) no-repeat center center fixed;
+.home-section{
+   background: url(../images/lion.jpg) no-repeat center center fixed;
    background-size: cover;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -39,3 +39,68 @@ a{
    height: 100%;
    text-align: center;
 }
+
+/* Day One Section One Styling Start*/
+
+.ltr-section{
+   background: url(../images/the_local_train2.jpg) no-repeat center center fixed;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   color: white;
+   height: 100%;
+   text-align: center;
+}
+
+.ltr_logo{
+   margin-top: 3%;
+   /*vertical-align: top;*/
+   max-width: 100%;
+   width: 400px;
+   height: auto;
+}
+
+.col2, .col3, .col4, .col5{
+   border-left: #D3D3D3 1px solid;
+   height: 100vh;
+   display: table-cell;
+   vertical-align: bottom;
+}
+
+.col2:hover{
+   background: url("../images/1_02.jpg") no-repeat center center;
+   background-size: auto 100%;
+   -webkit-background-size: auto 100%;
+   -o-background-size: auto 100%;
+   -moz-background-size: auto 100%;
+   height: 100vh;
+}
+.col3:hover{
+   background: url("../images/2_02.jpg") no-repeat center center;
+   background-size: auto 100%;
+   -webkit-background-size: auto 100%;
+   -o-background-size: auto 100%;
+   -moz-background-size: auto 100%;
+   height: 100vh;
+}
+.col4:hover{
+   background: url("../images/3_02.jpg") no-repeat center center;
+   background-size: auto 100%;
+   -webkit-background-size: auto 100%;
+   -o-background-size: auto 100%;
+   -moz-background-size: auto 100%;
+   height: 100vh;
+}
+.col5:hover{
+   background: url("../images/4_02.jpg") no-repeat center center;
+   background-size: auto 100%;
+   -webkit-background-size: auto 100%;
+   -o-background-size: auto 100%;
+   -moz-background-size: auto 100%;
+   height: 100vh;
+}
+
+
+
+/* Day One Section One Styling End*/
