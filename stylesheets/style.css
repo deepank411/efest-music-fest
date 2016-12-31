@@ -24,9 +24,9 @@ body {
    background-color: #EEEEEE;
 }
 
-a{
+a, a:hover{
    text-decoration: none;
-   color: black;
+   color: #f8f7f2;
 }
 
 .home-section{
