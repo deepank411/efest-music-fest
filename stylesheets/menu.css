@@ -17,6 +17,7 @@ html {
   transform: scale3d(1, 1, 1);
   transform-origin: top left;
   cursor: pointer;
+  z-index: 1000;
 }
 
 .button {
