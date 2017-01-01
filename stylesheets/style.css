@@ -9,7 +9,7 @@ html, body{
    background-color: #f7f7f7;
 }
 
-* {
+*, *:after, *:before {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
@@ -34,8 +34,8 @@ a, a:hover{
 }
 
 .home-section{
-   background-color: #000;
-   /*background: url(../images/home_bg.jpg) no-repeat center center;*/
+   /*background-color: #000;*/
+   background: url(../images/home_bg.jpg) no-repeat center center;
    background-size: cover;
    -webkit-background-size: cover;
    -moz-background-size: cover;
