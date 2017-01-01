@@ -1,4 +1,6 @@
-$(".menu").mousedown(function(){
+$(".menu").mousedown(function(event){
+	console.log(event.target.nodeName);
+	if(event.target.nodeName.toLowerCase() == 'a') return;
 	$(this).toggleClass("closed");
 
 	if($(this).hasClass("closed")) {
@@ -6,4 +8,4 @@ $(".menu").mousedown(function(){
 	} else {
 		$(".main.button").text("Close");
 	}
-})
+});
