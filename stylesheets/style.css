@@ -17,6 +17,10 @@ html, body{
    padding: 0;
 }
 
+.center{
+   text-align: center;
+}
+
 body {
    font-family: "Open Sans", sans-serif;
    padding: 0;
@@ -30,7 +34,8 @@ a, a:hover{
 }
 
 .home-section{
-   background: url(../images/lion.jpg) no-repeat center center fixed;
+   background-color: #000;
+   /*background: url(../images/home_bg.jpg) no-repeat center center;*/
    background-size: cover;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -38,6 +43,12 @@ a, a:hover{
    color: white;
    height: 100%;
    text-align: center;
+}
+
+.efest-logo{
+   max-width: 100%;
+   width: auto;
+   height: auto;
 }
 
 /* Day One Section One Styling Start*/

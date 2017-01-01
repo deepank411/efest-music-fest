@@ -21,11 +21,34 @@
 
    <link rel="stylesheet" href="stylesheets/normalize.css">
    <link rel="stylesheet" href="stylesheets/style.css">
+   <link rel="stylesheet" href="stylesheets/component.css">
+   <link rel="stylesheet" href="stylesheets/text-effect.css">
 
 </head>
 <body>
 
    <section class="home-section" id="home">
+
+      <img src="images/efest-logo1.png" class="efest-logo"/>
+
+      <svg viewBox="0 0 600 400">
+         <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="15%" class="text--line" >Music Festival</text>
+         </symbol>
+         <g class="g-ants">
+            <use xlink:href="#s-text"
+            class="text-copy"></use>
+            <use xlink:href="#s-text"
+            class="text-copy"></use>
+            <use xlink:href="#s-text"
+            class="text-copy"></use>
+            <use xlink:href="#s-text"
+            class="text-copy"></use>
+            <use xlink:href="#s-text"
+            class="text-copy"></use>
+         </g>
+      </svg>
+
       <div class="hidden-sm hidden-xs">
          <div class="menu closed">
             <div class="messages button">Day 2</div>
@@ -72,8 +95,10 @@
    <script src="https://use.fontawesome.com/abad8396eb.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
+   <script src="javascript/modernizr.custom.js"></script>
    <script src="javascript/TweenMax.min.js"></script>
    <script src="javascript/menu.js"></script>
    <script src="javascript/sharev.js"></script>
+   <script src="javascript/boxlayout.js"></script>
 </body>
 </html>
