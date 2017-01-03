@@ -1,6 +1,7 @@
 @import url("menu.css");
 @import url("share.css");
 
+@import url(http://fonts.googleapis.com/css?family=Raleway:500);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 
@@ -111,6 +112,9 @@ a, a:hover{
    -moz-background-size: auto 100%;
    height: 100vh;
 }
+
+
+
 
 
 

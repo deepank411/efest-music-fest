@@ -105,3 +105,107 @@ html {
 .closed .bookmark {
   transform: translate3d(-9.51056%, -228.09016%, 0) rotate(-180deg);
 }
+
+
+/*Mobile menu start*/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:500);
+
+
+.mobile-menu-wrapper {
+  position: fixed;
+  top: 2%;
+  width: 25px;
+  height: 250px;
+  z-index: 100;
+
+}
+
+.mobile-menu {
+  position: relative;
+  width: 25px;
+  height: 5px;
+  background-color: #7482A5;
+  user-select: none;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  margin: 5px;
+  color: #7482A5;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+.mobile-menu label {
+  cursor: pointer;
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  top: -12px;
+  left: 48px;
+}
+.mobile-menu:hover > ul.nav-links, .mobile-menu.open > ul.nav-links {
+  transition: all 0.25s ease-in-out;
+  opacity: 1;
+  width: 180px;
+  transform: translateX(15px);
+  pointer-events: auto;
+}
+.mobile-menu:after, .mobile-menu:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 5px;
+  background-color: #7482A5;
+  transition: all 0.25s ease-in-out;
+}
+.mobile-menu:after {
+  top: 12px;
+}
+.mobile-menu:before {
+  top: -12px;
+}
+.mobile-menu:hover, .mobile-menu.open {
+  background-color: transparent;
+}
+.mobile-menu:hover::after, .mobile-menu:hover::before, .mobile-menu.open::after, .mobile-menu.open::before {
+  transition: all 0.3s ease-in-out;
+  width: 18px;
+}
+.mobile-menu:hover::after, .mobile-menu.open::after {
+  transform: translate(3px, -7px) rotate(405deg);
+}
+.mobile-menu:hover::before, .mobile-menu.open::before {
+  transform: translate(12px, 17px) rotate(-405deg);
+}
+.mobile-menu ul.nav-links {
+  margin: 0;
+  padding: 36px 0 0 0;
+  opacity: 0;
+  transform: translateX(-15px);
+  transition: all 0.25s ease-in-out;
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+.mobile-menu ul.nav-links li {
+  width: 100%;
+  padding: 4px 8px;
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+  border-left: 2px solid #7482A5;
+  background-color: black;
+}
+.mobile-menu ul.nav-links li:hover, .mobile-menu ul.nav-links li.active {
+  color: white;
+  border-left: 2px solid white;
+  background-color: black;
+}
+
+
+/*Mobile menu style End*/
