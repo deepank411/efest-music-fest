@@ -113,9 +113,57 @@ a, a:hover{
    height: 100vh;
 }
 
-
-
-
-
-
 /* Day One Section One Styling End*/
+
+/* Day Two Section One Styling Start*/
+
+.euphoria-section{
+   background: url(../images/euphoria_bg.jpg) no-repeat center center fixed;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   color: white;
+   height: 100%;
+   text-align: center;
+}
+
+.light {
+   animation:top-right 5s ease-in-out alternate infinite;
+   border-bottom:none;
+   border-left:solid 20vh transparent;
+   border-right:solid 20vh transparent;
+   border-top:solid 200vh rgba(255, 255, 255, .5);
+   bottom:0;
+   height:0;
+   left:0;
+   position:absolute;
+   transform-origin:bottom;
+   width:0;
+}
+
+.light + .light {
+   animation:top-left 4s ease-in-out alternate infinite;
+   left:auto;
+   right:0;
+}
+
+@keyframes top-right {
+   0% {
+      transform:rotate(-10deg);
+   }
+   100% {
+      transform:rotate(70deg);
+   }
+}
+
+@keyframes top-left {
+   0% {
+      transform:rotate(10deg);
+   }
+   100% {
+      transform:rotate(-70deg);
+   }
+}
+
+/* Day Two Section One Styling End*/
