@@ -1,175 +1,182 @@
 @import url("menu.css");
 @import url("share.css");
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:500);
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 html, body{
-   height: 100%;
-   background-color: #f7f7f7;
+	height: 100%;
+	background-color: #f7f7f7;
 }
 
 *, *:after, *:before {
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 .center{
-   text-align: center;
+	text-align: center;
 }
 
 body {
-   font-family: "Open Sans", sans-serif;
-   padding: 0;
-   margin: 0;
-   background-color: #EEEEEE;
-   overflow-y: scroll;
-   -webkit-overflow-scrolling: touch;
+	font-family: "Open Sans", sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #EEEEEE;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
 a, a:hover{
-   text-decoration: none;
-   color: #f8f7f2;
+	text-decoration: none;
+	color: #f8f7f2;
 }
 
 .home-section{
-   /*background-color: #000;*/
-   background: url(../images/home_bg.jpg) no-repeat center center;
-   background-size: cover;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   color: white;
-   height: 100%;
-   text-align: center;
+	/*background-color: #000;*/
+	background: url(../images/home_bg.jpg) no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: white;
+	height: 100%;
+	text-align: center;
 }
 
 .efest-logo{
-   max-width: 100%;
-   width: 350px;
-   height: auto;
-   position:relative;
-   margin-top:2%;
+	max-width: 100%;
+	width: 350px;
+	height: auto;
+	position:relative;
+	margin-top:2%;
 }
 
 @media only screen and (min-width: 1024px) {
-  .efest-logo{
-     max-width: 100%;
-     width: 25%;
-     height: auto;
-     position:relative;
-     margin-top:2%;
-  }
+	.efest-logo{
+		max-width: 100%;
+		width: 25%;
+		height: auto;
+		position:relative;
+		margin-top:2%;
+	}
 }
 
 /*Mobile view portrait*/
 @media only screen and (max-width: 480px) and (orientation: portrait) {
-  .efest-logo{
-     max-width: 100%;
-     width: 50%;
-     height: auto;
-     position:relative;
-     margin-top:20%;
-  }
+	.efest-logo{
+		max-width: 100%;
+		width: 50%;
+		height: auto;
+		position:relative;
+		margin-top:20%;
+	}
 }
 
 @media only screen and (max-width: 768px) and (orientation: landscape) {
-  .efest-logo{
-     max-width: 100%;
-     width: 30%;
-     height: auto;
-     position:relative;
-     margin-top:5%;
-  }
+	.efest-logo{
+		max-width: 100%;
+		width: 30%;
+		height: auto;
+		position:relative;
+		margin-top:5%;
+	}
 }
 
 /*Tablet view Portrait*/
 @media only screen and (max-width: 1024px) and (min-width : 768px ) and (orientation: portrait) {
-  .efest-logo{
-     max-width: 100%;
-     width: 40%;
-     height: auto;
-     position:relative;
-     margin-top:10%;
-   }
+	.efest-logo{
+		max-width: 100%;
+		width: 40%;
+		height: auto;
+		position:relative;
+		margin-top:10%;
+	}
 
 }
 
 /*Tablet view*/
 @media only screen and (max-width: 1024px) and (min-width : 768px ) and (orientation: landscape) {
-  .efest-logo{
-     max-width: 100%;
-     width: 30%;
-     height: auto;
-     position: relative;
-     margin-top: 7%;
-   }
+	.efest-logo{
+		max-width: 100%;
+		width: 30%;
+		height: auto;
+		position: relative;
+		margin-top: 7%;
+	}
 
 }
 
 /* Day One Section One Styling Start*/
 
 .ltr-section{
-   background: url(../images/the_local_train2.jpg) no-repeat center center fixed;
-   background-size: cover;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   color: white;
-   height: 100%;
-   text-align: center;
+	background: url(../images/the_local_train2.jpg) no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: white;
+	height: 100%;
+	text-align: center;
 }
 
 .ltr_logo{
-   margin-top: 3%;
-   /*vertical-align: top;*/
-   max-width: 100%;
-   width: 400px;
-   height: auto;
+	margin-top: 3%;
+	/*vertical-align: top;*/
+	max-width: 100%;
+	width: 400px;
+	height: auto;
 }
 
 .col2, .col3, .col4, .col5{
-   border-left: #D3D3D3 1px solid;
-   height: 100vh;
-   display: table-cell;
-   vertical-align: bottom;
+	border-left: #D3D3D3 1px solid;
+	height: 100vh;
+	display: table-cell;
+	vertical-align: bottom;
+	float: none;
+	font-size: 1.2em;
+	font-weight: bolder;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	padding-bottom: 50px;
+	text-transform: uppercase;
 }
 
 .col2:hover{
-   background: url("../images/1_02.jpg") no-repeat center center;
-   background-size: auto 100%;
-   -webkit-background-size: auto 100%;
-   -o-background-size: auto 100%;
-   -moz-background-size: auto 100%;
-   height: 100vh;
+	background: url("../images/1_02.jpg") no-repeat center center;
+	background-size: auto 100%;
+	-webkit-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	height: 100vh;
 }
 .col3:hover{
-   background: url("../images/2_02.jpg") no-repeat center center;
-   background-size: auto 100%;
-   -webkit-background-size: auto 100%;
-   -o-background-size: auto 100%;
-   -moz-background-size: auto 100%;
-   height: 100vh;
+	background: url("../images/2_02.jpg") no-repeat center center;
+	background-size: auto 100%;
+	-webkit-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	height: 100vh;
 }
 .col4:hover{
-   background: url("../images/3_02.jpg") no-repeat center center;
-   background-size: auto 100%;
-   -webkit-background-size: auto 100%;
-   -o-background-size: auto 100%;
-   -moz-background-size: auto 100%;
-   height: 100vh;
+	background: url("../images/3_02.jpg") no-repeat center center;
+	background-size: auto 100%;
+	-webkit-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	height: 100vh;
 }
 .col5:hover{
-   background: url("../images/4_02.jpg") no-repeat center center;
-   background-size: auto 100%;
-   -webkit-background-size: auto 100%;
-   -o-background-size: auto 100%;
-   -moz-background-size: auto 100%;
-   height: 100vh;
+	background: url("../images/4_02.jpg") no-repeat center center;
+	background-size: auto 100%;
+	-webkit-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	height: 100vh;
 }
 
 /* Day One Section One Styling End*/
@@ -177,52 +184,52 @@ a, a:hover{
 /* Day Two Section One Styling Start*/
 
 .euphoria-section{
-   background: url(../images/euphoria_bg.jpg) no-repeat center center fixed;
-   background-size: cover;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   color: white;
-   height: 100%;
-   text-align: center;
+	background: url(../images/euphoria_bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: white;
+	height: 100%;
+	text-align: center;
 }
 
 .light {
-   animation:top-right 5s ease-in-out alternate infinite;
-   border-bottom:none;
-   border-left:solid 20vh transparent;
-   border-right:solid 20vh transparent;
-   border-top:solid 200vh rgba(255, 255, 255, .5);
-   bottom:0;
-   height:0;
-   left:0;
-   position:absolute;
-   transform-origin:bottom;
-   width:0;
+	animation:top-right 5s ease-in-out alternate infinite;
+	border-bottom:none;
+	border-left:solid 20vh transparent;
+	border-right:solid 20vh transparent;
+	border-top:solid 200vh rgba(255, 255, 255, .5);
+	bottom:0;
+	height:0;
+	left:0;
+	position:absolute;
+	transform-origin:bottom;
+	width:0;
 }
 
 .light + .light {
-   animation:top-left 4s ease-in-out alternate infinite;
-   left:auto;
-   right:0;
+	animation:top-left 4s ease-in-out alternate infinite;
+	left:auto;
+	right:0;
 }
 
 @keyframes top-right {
-   0% {
-      transform:rotate(-10deg);
-   }
-   100% {
-      transform:rotate(70deg);
-   }
+	0% {
+		transform:rotate(-10deg);
+	}
+	100% {
+		transform:rotate(70deg);
+	}
 }
 
 @keyframes top-left {
-   0% {
-      transform:rotate(10deg);
-   }
-   100% {
-      transform:rotate(-70deg);
-   }
+	0% {
+		transform:rotate(10deg);
+	}
+	100% {
+		transform:rotate(-70deg);
+	}
 }
 
 /* Day Two Section One Styling End*/
