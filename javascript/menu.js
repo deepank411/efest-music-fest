@@ -1,5 +1,5 @@
 $(".menu").mousedown(function(event){
-	console.log(event.target.nodeName);
+	// console.log(event.target.nodeName);
 	if(event.target.nodeName.toLowerCase() == 'a') return;
 	$(this).toggleClass("closed");
 

@@ -1,4 +1,6 @@
-@import "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500";
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500");
+@import url("https://fonts.googleapis.com/css?family=Raleway:500");
+
 html {
   background: #f8f7f2;
 }
@@ -55,7 +57,6 @@ html {
   background-color: #1ba5cd;
   top: 0%;
   left: 225%;
-  /*background-image: url(http://bennettfeely.com/cdpn/home.svg);*/
   transition-duration: 0.525s;
 }
 .closed .home {
@@ -66,7 +67,6 @@ html {
   background-color: #1ab254;
   top: 86.10368%;
   left: 207.873%;
-  /*background-image: url(http://bennettfeely.com/cdpn/music.svg);*/
   transition-duration: 0.675s;
 }
 .closed .music {
@@ -77,7 +77,6 @@ html {
   background-color: #fec72e;
   top: 159.09908%;
   left: 159.09908%;
-  /*background-image: url(http://bennettfeely.com/cdpn/messages.svg);*/
   transition-duration: 0.825s;
 }
 .closed .messages {
@@ -88,7 +87,6 @@ html {
   background-color: #fa7d39;
   top: 207.873%;
   left: 86.10368%;
-  /*background-image: url(http://bennettfeely.com/cdpn/places.svg);*/
   transition-duration: 0.975s;
 }
 .closed .places {
@@ -99,18 +97,13 @@ html {
   background-color: #ee5656;
   top: 225%;
   left: 0%;
-  /*background-image: url(http://bennettfeely.com/cdpn/bookmark.svg);*/
   transition-duration: 1.125s;
 }
 .closed .bookmark {
   transform: translate3d(-9.51056%, -228.09016%, 0) rotate(-180deg);
 }
 
-
 /*Mobile menu start*/
-
-@import url(http://fonts.googleapis.com/css?family=Raleway:500);
-
 
 .mobile-menu-wrapper {
   position: fixed;
