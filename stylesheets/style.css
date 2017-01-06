@@ -179,6 +179,35 @@ a, a:hover{
 	height: 100vh;
 }
 
+.local-train-logo img{
+    display:none;
+}
+.local-train-logo img{
+    width: 60%;
+}
+
+@media only screen and (max-width: 992px){
+
+	.local-train-logo img{
+	   display: block;
+	   position: relative;
+	   padding-top: 20%;
+	   height:auto;
+	}
+
+	.ltr-section{
+		background: url(../images/the_local_train.jpg) no-repeat center center fixed;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		color: white;
+		height: 100%;
+		text-align: center;
+	}
+
+}
+
 /* Day One Section One Styling End*/
 
 /* Day Two Section One Styling Start*/
