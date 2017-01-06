@@ -13,8 +13,8 @@ html {
 
 .menu {
   position: fixed;
-  top: 50px;
-  left: 50px;
+  top: 40px;
+  left: 40px;
   transition: transform 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
   transform: scale3d(1, 1, 1);
   transform-origin: top left;
