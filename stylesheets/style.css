@@ -74,6 +74,7 @@ a, a:hover{
 		height: auto;
 		position:relative;
 		margin-top:20%;
+
 	}
 }
 
@@ -186,12 +187,13 @@ a, a:hover{
     width: 60%;
 }
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 992px) and (orientation: portrait) {
 
 	.local-train-logo img{
 	   display: block;
 	   position: relative;
 	   padding-top: 20%;
+		left:20%;
 	   height:auto;
 	}
 
