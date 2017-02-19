@@ -1,151 +1,122 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
 <head>
-   <meta charset="utf-8" />
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="description" content="Music Festival for E-Fest Asia Pacific 2017">
-   <meta name="keywords" content="Music, Festival, Local Train, NYK, E-fest, Euphoria">
-   <meta name="author" content="Deepank Agarwal">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Music Festival for E-Fest Asia Pacific 2017">
+	<meta name="keywords" content="Music, Festival, Local Train, NYK, E-fest, Euphoria">
+	<meta name="author" content="Deepank Agarwal">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-   <!-- Facebook Open Graph meta -->
-   <meta property="og:title" content="Efest Music Festival">
-   <meta property="og:description" content="Music Festival for E-Fest Asia Pacific 2017">
-   <meta name="theme-color" content="#000">
+	<!-- Facebook Open Graph meta -->
+	<meta property="og:title" content="Efest Music Festival">
+	<meta property="og:description" content="Music Festival for E-Fest Asia Pacific 2017">
+	<meta name="theme-color" content="#000">
 
-   <title>E Fest Music Festival</title>
+	<title>E Fest Music Festival</title>
 
-   <!-- Included CSS Files -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
 
-   <link rel="stylesheet" href="stylesheets/normalize.css">
-   <link rel="stylesheet" href="stylesheets/style.css">
-   <link rel="stylesheet" href="stylesheets/component.css">
-   <link rel="stylesheet" href="stylesheets/text-effect.css">
-   <link rel="shortcut icon" href="./favicon.png" type="image/png"/>
+	<link rel="stylesheet" href="stylesheets/normalize.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="stylesheet" href="stylesheets/text-effect.css">
+	<link rel="shortcut icon" href="./favicon.png" type="image/png"/>
 
 </head>
-<body>
+<body onload="myFunction()">
 
-   <section class="home-section" id="home">
+	<div id="loader" class="loader">
+		<canvas id="canvas" width="250" height="250"></canvas>
+	</div>
 
-      <img src="images/efest-logo.png" class="efest-logo"/>
+	<section class="home-section" id="home" style="display:none;">
 
-      <svg viewBox="0 0 600 400">
-         <symbol id="s-text">
-            <text text-anchor="middle" x="50%" y="30%" class="text--line" >Music Festival</text>
-         </symbol>
-         <g class="g-ants">
-            <use xlink:href="#s-text"
-            class="text-copy"></use>
-            <use xlink:href="#s-text"
-            class="text-copy"></use>
-            <use xlink:href="#s-text"
-            class="text-copy"></use>
-            <use xlink:href="#s-text"
-            class="text-copy"></use>
-            <use xlink:href="#s-text"
-            class="text-copy"></use>
-         </g>
-      </svg>
-      <div class="hidden-lg hidden-md">
-         <div class="mobile-menu-wrapper">
-             <div class="mobile-menu">
-                 <label></label>
-                 <ul class="nav-links">
-                   <li><a class="" href="#">Home</a></li>
-                     <li><a class="" href="day_one.html">Day 1</a></li>
-                     <li><a class="" href="day_two.html">Day 2</a></li>
-                     <li><a class="" href="#">Contact</a></li>
-                     <li><a class="" href="#">Register</a></li>
+		<img src="images/efest-logo1.png" class="efest-logo"/>
 
-                 </ul>
-             </div>
-         </div>
-      </div>
-      <div class="hidden-sm hidden-xs">
-         <div class="menu closed">
-            <a class="messages button" href="day_two.html">Day 2</a>
-            <a class="music button" href="day_one.html">Day 1</a>
-            <a class="home button" href="#">Home</a>
-            <a class="places button" href="#">Contact</a>
-            <a class="bookmark button" href="#">Register</a>
-            <div class="main button">Menu</div>
-         </div>
-      </div>
-      <div class="hidden-xs">
-         <div class="share">
-            <button class="share-toggle-button">
-               <i class="share-icon fa fa-share-alt"></i>
-            </button>
-            <ul class="share-items">
-               <li class="share-item">
-                  <a href="#" target="_blank" class="share-button facebook">
-                     <i class="share-icon fa fa-facebook"></i>
-                  </a>
-               </li>
-               <li class="share-item">
-                  <a href="#" target="_blank" class="share-button twitter">
-                     <i class="share-icon fa fa-twitter"></i>
-                  </a>
-               </li>
-               <li class="share-item">
-                  <a href="#" target="_blank" class="share-button youtube">
-                     <i class="share-icon fa fa-youtube-play"></i>
-                  </a>
-               </li>
-               <li class="share-item">
-                  <a href="#" target="_blank" class="share-button instagram">
-                     <i class="share-icon fa fa-instagram"></i>
-                  </a>
-               </li>
-            </ul>
-         </div>
-      </div>
-   </section>
+		<svg viewBox="0 0 600 400">
+			<symbol id="s-text">
+				<text text-anchor="middle" x="50%" y="30%" class="text--line" >Music Festival</text>
+			</symbol>
+			<g class="g-ants">
+				<use xlink:href="#s-text"
+				class="text-copy"></use>
+				<use xlink:href="#s-text"
+				class="text-copy"></use>
+				<use xlink:href="#s-text"
+				class="text-copy"></use>
+				<use xlink:href="#s-text"
+				class="text-copy"></use>
+				<use xlink:href="#s-text"
+				class="text-copy"></use>
+			</g>
+		</svg>
+		<div class="hidden-lg hidden-md">
+			<div class="mobile-menu-wrapper">
+				<div class="mobile-menu">
+					<label></label>
+					<ul class="nav-links">
+						<li><a class="" href="#">Home</a></li>
+						<li><a class="" href="day_one.html">Day 1</a></li>
+						<li><a class="" href="day_two.html">Day 2</a></li>
+						<li><a class="" href="#">Contact</a></li>
+						<li><a class="" href="#">Register</a></li>
 
-   <section class="events-section" id="events">
-      <div id="bl-main" class="bl-main">
-			<section>
-            <a href="day_one.html">
-               <div class="bl-box">
-   					<h2>About</h2>
-   				</div>
-            </a>
-			</section>
-			<section id="bl-work-section">
-				<a href="day_one.html">
-               <div class="bl-box">
-					   <h2>Works</h2>
-   				</div>
-            </a>
-			</section>
-			<section>
-				<a href="day_one.html">
-               <div class="bl-box">
-					   <h2>Blog</h2>
-   				</div>
-            </a>
-			</section>
-			<section>
-				<a href="day_one.html">
-               <div class="bl-box">
-					   <h2>Contact</h2>
-   				</div>
-            </a>
-			</section>
+					</ul>
+				</div>
+			</div>
 		</div>
-   </section>
+		<div class="hidden-sm hidden-xs">
+			<div class="menu closed">
+				<a class="messages button" href="day_two.html">Day 2</a>
+				<a class="music button" href="day_one.html">Day 1</a>
+				<a class="home button" href="#">Home</a>
+				<a class="places button" href="#">Contact</a>
+				<a class="bookmark button" href="#">Register</a>
+				<div class="main button">Menu</div>
+			</div>
+		</div>
+		<div class="hidden-xs">
+			<div class="share">
+				<button class="share-toggle-button">
+					<i class="share-icon fa fa-share-alt"></i>
+				</button>
+				<ul class="share-items">
+					<li class="share-item">
+						<a href="#" target="_blank" class="share-button facebook">
+							<i class="share-icon fa fa-facebook"></i>
+						</a>
+					</li>
+					<li class="share-item">
+						<a href="#" target="_blank" class="share-button twitter">
+							<i class="share-icon fa fa-twitter"></i>
+						</a>
+					</li>
+					<li class="share-item">
+						<a href="#" target="_blank" class="share-button youtube">
+							<i class="share-icon fa fa-youtube-play"></i>
+						</a>
+					</li>
+					<li class="share-item">
+						<a href="#" target="_blank" class="share-button instagram">
+							<i class="share-icon fa fa-instagram"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
 
-   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-   <script src="https://use.fontawesome.com/abad8396eb.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/abad8396eb.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
-   <script src="javascript/modernizr.custom.js"></script>
-   <script src="javascript/TweenMax.min.js"></script>
-   <script src="javascript/menu.js"></script>
-   <script src="javascript/sharev.js"></script>
+	<script src="javascript/modernizr.custom.js"></script>
+	<script src="javascript/TweenMax.min.js"></script>
+	<script src="javascript/menu.js"></script>
+	<script src="javascript/sharev.js"></script>
+	<script src="javascript/loader.js"></script>
 </body>
 </html>
