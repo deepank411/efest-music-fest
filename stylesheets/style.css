@@ -195,20 +195,20 @@ a, a:hover{
 }
 
 .local-train-logo img{
-    display:none;
+	display:none;
 }
 .local-train-logo img{
-    width: 60%;
+	width: 60%;
 }
 
 @media only screen and (max-width: 992px) and (orientation: portrait) {
 
 	.local-train-logo img{
-	   display: block;
-	   position: relative;
-	   padding-top: 20%;
+		display: block;
+		position: relative;
+		padding-top: 20%;
 		left:20%;
-	   height:auto;
+		height:auto;
 	}
 
 	.ltr-section{
@@ -267,143 +267,143 @@ a, a:hover{
 	left:auto;
 	right:0;
 }
+
 /*Euphoria text effect*/
 
 
 #svgWrapper {
-  display: inline-block;
-  width: 4vw;
-  height:200%;
-  cursor: pointer;
+	position: relative;
+	top: 20%;
+	margin: 15px;
+	display: inline-block;
+	width: 1vw;
+	height:auto;
+	cursor: pointer;
 }
 #svgWrapper svg {
-  stroke-width: 17;
-  width: 40vw;
-  height:40%;
-  -webkit-transition: -webkit-transform .5s ease-out;
-  transition: -webkit-transform .5s ease-out;
-  transition: transform .5s ease-out;
-  transition: transform .5s ease-out, -webkit-transform .5s ease-out;
+	stroke-width: 17;
+	width: 33vw;
+	height:100%;
+	-webkit-transition: -webkit-transform .5s ease-out;
+	transition: -webkit-transform .5s ease-out;
+	transition: transform .5s ease-out;
+	transition: transform .5s ease-out, -webkit-transform .5s ease-out;
 }
 #svgWrapper svg .bigfont{
-  stroke-width: 17;
-  width: 60vw;
-  height:60%;
-  -webkit-transition: -webkit-transform .5s ease-out;
-  transition: -webkit-transform .5s ease-out;
-  transition: transform .5s ease-out;
-  transition: transform .5s ease-out, -webkit-transform .5s ease-out;
+	stroke-width: 17;
+	width: 60vw;
+	height:60%;
+	-webkit-transition: -webkit-transform .5s ease-out;
+	transition: -webkit-transform .5s ease-out;
+	transition: transform .5s ease-out;
+	transition: transform .5s ease-out, -webkit-transform .5s ease-out;
 }
 
 #svgWrapper svg #stroke .E {
-  stroke-dasharray: 1200;
-  stroke-dashoffset: 1200;
-  stroke-width: 5;
-  -webkit-animation: summerbird-s 0.5s linear forwards .8s;
-          animation: summerbird-s 0.5s linear forwards .8s;
+	stroke-dasharray: 1200;
+	stroke-dashoffset: 1200;
+	stroke-width: 5;
+	-webkit-animation: summerbird-s 0.5s linear forwards .8s;
+	animation: summerbird-s 0.5s linear forwards .8s;
 }
 #svgWrapper svg #stroke .U {
-  stroke-dasharray: 2400;
-  stroke-dashoffset: 2400;
-  stroke-width: 5;
-  -webkit-animation: summerbird-s 0.8s linear forwards 1.1s;
-          animation: summerbird-s 0.8s linear forwards 1.1s;
+	stroke-dasharray: 2400;
+	stroke-dashoffset: 2400;
+	stroke-width: 5;
+	-webkit-animation: summerbird-s 0.8s linear forwards 1.1s;
+	animation: summerbird-s 0.8s linear forwards 1.1s;
 }
 #svgWrapper svg #stroke .P {
-  stroke-dasharray: 1200;
-  stroke-dashoffset: 1200;
-  stroke-width: 10;
-  -webkit-animation: summerbird-s 1.1s linear forwards 1.4s;
-          animation: summerbird-s 1.1s linear forwards 1.4s;
+	stroke-dasharray: 1200;
+	stroke-dashoffset: 1200;
+	stroke-width: 10;
+	-webkit-animation: summerbird-s 1.1s linear forwards 1.4s;
+	animation: summerbird-s 1.1s linear forwards 1.4s;
 }
 #svgWrapper svg #stroke .H {
-  stroke-dasharray: 1200;
-  stroke-dashoffset: 1200;
-  stroke-width: 5;
-  -webkit-animation: summerbird-s 1.4s linear forwards 1.7s;
-          animation: summerbird-s 1.4s linear forwards 1.7s;
+	stroke-dasharray: 1200;
+	stroke-dashoffset: 1200;
+	stroke-width: 5;
+	-webkit-animation: summerbird-s 1.4s linear forwards 1.7s;
+	animation: summerbird-s 1.4s linear forwards 1.7s;
 }
 #svgWrapper svg #stroke .O {
-  stroke-dasharray: 1200;
-  stroke-dashoffset: 1200;
-  stroke-width: 5;
-  -webkit-animation: summerbird-s 1.7s linear forwards 2s;
-          animation: summerbird-s 1.7s linear forwards 2s;
+	stroke-dasharray: 1200;
+	stroke-dashoffset: 1200;
+	stroke-width: 5;
+	-webkit-animation: summerbird-s 1.7s linear forwards 2s;
+	animation: summerbird-s 1.7s linear forwards 2s;
 }
 #svgWrapper svg #stroke .R {
-  stroke-dasharray: 1200;
-  stroke-dashoffset: 1200;
-  stroke-width: 5;
-  -webkit-animation: summerbird-s 2s linear forwards 2.3s;
-          animation: summerbird-s 2s linear forwards 2.3s;
+	stroke-dasharray: 1200;
+	stroke-dashoffset: 1200;
+	stroke-width: 5;
+	-webkit-animation: summerbird-s 2s linear forwards 2.3s;
+	animation: summerbird-s 2s linear forwards 2.3s;
 }
 #svgWrapper svg #stroke .I {
-  stroke-dasharray: 1200;
-  stroke-dashoffset: 1200;
-  stroke-width: 15;
-  -webkit-animation: summerbird-s 2.3s linear forwards 2.5s;
-          animation: summerbird-s 2.3s linear forwards 2.5s;
+	stroke-dasharray: 1200;
+	stroke-dashoffset: 1200;
+	stroke-width: 15;
+	-webkit-animation: summerbird-s 2.3s linear forwards 2.5s;
+	animation: summerbird-s 2.3s linear forwards 2.5s;
 }
 #svgWrapper svg #stroke .A {
-  stroke-dasharray: 1200;
-  stroke-dashoffset: 1200;
-  stroke-width: 5;
-  -webkit-animation: summerbird-s 2.5s linear forwards 2.7s;
-          animation: summerbird-s 2.5s linear forwards 2.7s;
+	stroke-dasharray: 1200;
+	stroke-dashoffset: 1200;
+	stroke-width: 5;
+	-webkit-animation: summerbird-s 2.5s linear forwards 2.7s;
+	animation: summerbird-s 2.5s linear forwards 2.7s;
 }
 
-
-
-
-
 @-webkit-keyframes summerbird-s {
-  0% {
-    stroke-dashoffset: 1200;
-  }
-  33% {
-    stroke-width: 5;
-  }
-  90% {
-    stroke-dashoffset: 0;
-  }
-  100% {
-    stroke-dashoffset: 0;
-    stroke-width: 17;
-  }
+	0% {
+		stroke-dashoffset: 1200;
+	}
+	33% {
+		stroke-width: 5;
+	}
+	90% {
+		stroke-dashoffset: 0;
+	}
+	100% {
+		stroke-dashoffset: 0;
+		stroke-width: 17;
+	}
 }
 
 @keyframes summerbird-s {
-  0% {
-    stroke-dashoffset: 1200;
-  }
-  33% {
-    stroke-width: 5;
-  }
-  90% {
-    stroke-dashoffset: 0;
-  }
-  100% {
-    stroke-dashoffset: 0;
-    stroke-width: 17;
-  }
+	0% {
+		stroke-dashoffset: 1200;
+	}
+	33% {
+		stroke-width: 5;
+	}
+	90% {
+		stroke-dashoffset: 0;
+	}
+	100% {
+		stroke-dashoffset: 0;
+		stroke-width: 17;
+	}
 }
 @-webkit-keyframes summerbird-ummerbird {
-  0% {
-    stroke-dashoffset: 2400;
-  }
-  100% {
-    stroke-dashoffset: 0;
-    stroke-width: 15;
-  }
+	0% {
+		stroke-dashoffset: 2400;
+	}
+	100% {
+		stroke-dashoffset: 0;
+		stroke-width: 15;
+	}
 }
 @keyframes summerbird-ummerbird {
-  0% {
-    stroke-dashoffset: 2400;
-  }
-  100% {
-    stroke-dashoffset: 0;
-    stroke-width: 15;
-  }
+	0% {
+		stroke-dashoffset: 2400;
+	}
+	100% {
+		stroke-dashoffset: 0;
+		stroke-width: 15;
+	}
 }
 
 
@@ -425,5 +425,4 @@ a, a:hover{
 		transform:rotate(-70deg);
 	}
 }
-
 /* Day Two Section One Styling End*/
