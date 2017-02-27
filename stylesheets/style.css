@@ -244,7 +244,7 @@ a, a:hover{
 
 #svgWrapper {
 	position: relative;
-	margin: 15px;
+	margin: 75px 15px 15px 15px;
 	display: inline-block;
 	width: 1.5vw;
 	height:auto;

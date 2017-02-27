@@ -124,7 +124,7 @@ html {
   user-select: none;
   transition: all 0.25s ease-in-out;
   cursor: pointer;
-  margin: 5px;
+  margin: ;
   color: #7482A5;
   -webkit-perspective: ;
   -webkit-backface-visibility: hidden;
@@ -188,7 +188,29 @@ html {
   text-transform: uppercase;
   transition: all 0.25s ease-in-out;
   border-left: 2px solid white;
-  background-color: #D79646;
+  background-color: #E1B051;
+}
+.day_two ul.nav-links li {
+  width: 100%;
+  padding: 4px 8px;
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+  border-left: 2px solid white;
+  background-color: #D9C143;
+}
+.day_one ul.nav-links li {
+  width: 100%;
+  padding: 4px 8px;
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+  border-left: 2px solid white;
+  background-color: #aaa1ea;
 }
 .mobile-menu ul.nav-links li:hover, .mobile-menu ul.nav-links li.active {
   color: white;
