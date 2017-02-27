@@ -218,5 +218,17 @@ html {
   background-color: #D79646;
 }
 
+.day_one ul.nav-links li:hover, .mobile-menu ul.nav-links li.active {
+  color: white;
+  border: 2px solid white;
+  background-color: #aaa1ea;
+}
+
+.day_two ul.nav-links li:hover, .mobile-menu ul.nav-links li.active {
+  color: white;
+  border: 2px solid white;
+  background-color: #D9C143;
+}
+
 
 /*Mobile menu style End*/
