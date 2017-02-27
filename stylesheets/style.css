@@ -1,10 +1,13 @@
 @import url("menu.css");
 @import url("share.css");
 
-@import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 @import url('https://fonts.googleapis.com/css?family=Euphoria+Script');
+
+@font-face {
+	font-family: 'hemi-head';
+	src: url('../fonts/HEMIHEAD.TTF') format('truetype');
+}
 
 html, body{
 	height: 100%;
@@ -79,6 +82,8 @@ a, a:hover{
 	position: absolute;
 	top: 80%;
 	font-size: 2vw;
+	font-family: 'hemi-head', sans-serif;
+	z-index: 1000;
 }
 
 .ltr-section{
@@ -101,21 +106,13 @@ a, a:hover{
 }
 
 .col2, .col3, .col4, .col5, .col6{
-	/*border-left: #aaa 1px solid;*/
 	height: 100vh;
 	display: table-cell;
-	/*vertical-align: bottom;*/
-	/*float: none;*/
-	/*font-size: 1.2em;
-	font-weight: bolder;
-	font-family: 'Raleway', sans-serif;*/
 	color: #fff;
-	/*padding-bottom: 50px;
-	text-transform: uppercase;*/
 }
 
 .col2:hover{
-	background: url("../images/aayudh/aa.jpg") no-repeat center center;
+	background: url("../images/aayudh/aa-min.jpg") no-repeat center center;
 	background-size: auto 100%;
 	-webkit-background-size: auto 100%;
 	-o-background-size: auto 100%;
@@ -123,7 +120,7 @@ a, a:hover{
 	height: 100vh;
 }
 .col3:hover{
-	background: url("../images/aayudh/ab.jpg") no-repeat center center;
+	background: url("../images/aayudh/ab-min.jpg") no-repeat center center;
 	background-size: auto 100%;
 	-webkit-background-size: auto 100%;
 	-o-background-size: auto 100%;
@@ -131,7 +128,7 @@ a, a:hover{
 	height: 100vh;
 }
 .col4:hover{
-	background: url("../images/aayudh/ac.jpg") no-repeat center center;
+	background: url("../images/aayudh/ac-min.jpg") no-repeat center center;
 	background-size: auto 100%;
 	-webkit-background-size: auto 100%;
 	-o-background-size: auto 100%;
@@ -139,7 +136,7 @@ a, a:hover{
 	height: 100vh;
 }
 .col5:hover{
-	background: url("../images/aayudh/ad.jpg") no-repeat center center;
+	background: url("../images/aayudh/ad-min.jpg") no-repeat center center;
 	background-size: auto 100%;
 	-webkit-background-size: auto 100%;
 	-o-background-size: auto 100%;
@@ -147,7 +144,7 @@ a, a:hover{
 	height: 100vh;
 }
 .col6:hover{
-	background: url("../images/aayudh/ae.jpg") no-repeat center center;
+	background: url("../images/aayudh/ae-min.jpg") no-repeat center center;
 	background-size: auto 100%;
 	-webkit-background-size: auto 100%;
 	-o-background-size: auto 100%;
@@ -163,9 +160,6 @@ a, a:hover{
 }
 
 @media only screen and (max-width: 992px){
-
-
-
 	.ayudh_logo img{
 		display: block;
 		position: relative;
@@ -175,7 +169,7 @@ a, a:hover{
 	}
 
 	.ltr-section{
-		background: url(../images/aayudh/ayudh2.jpg) no-repeat center center fixed;
+		background: url('../images/aayudh/ayudh-min.jpg') no-repeat center center fixed;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -184,11 +178,7 @@ a, a:hover{
 		height: 100%;
 		text-align: center;
 	}
-
 }
-
-
-
 
 /* Day One Section One Styling End*/
 
@@ -211,7 +201,7 @@ a, a:hover{
 }
 
 .euphoria-section{
-	background: url(../images/euphoriaBackground.jpg) no-repeat center center fixed;
+	background: url('../images/euphoriaBackground.jpg') no-repeat center center fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -251,7 +241,6 @@ a, a:hover{
 }
 
 /*Euphoria text effect*/
-
 
 #svgWrapper {
 	position: relative;
@@ -442,7 +431,7 @@ a, a:hover{
 	}
 
 	.day_one_details	{
-		font-size: 6vw;
+		font-size: 8vw;
 	}
 
 	.loader img {display:none;}
@@ -458,7 +447,7 @@ a, a:hover{
 		width: 60%;
 	}
 	.ltr-section{
-		background: url(../images/aayudh/ayudh2.jpg) no-repeat center center fixed;
+		background: url(../images/aayudh/ayudh-min.jpg) no-repeat center center fixed;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -478,6 +467,7 @@ a, a:hover{
 	}
 }
 
+/*Mobile View Landscape*/
 @media only screen and (max-width: 768px) and (orientation: landscape) {
 	.efest-logo{
 		max-width: 100%;
@@ -496,7 +486,7 @@ a, a:hover{
 		width:35%;
 	}
 	.ltr-section{
-		background: url(../images/aayudh/ayudh2.jpg) no-repeat center center fixed;
+		background: url(../images/aayudh/ayudh-min.jpg) no-repeat center center fixed;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -505,7 +495,9 @@ a, a:hover{
 		height: 100%;
 		text-align: center;
 	}
-	
+	.day_one_details{
+		font-size: 1em;
+	}
 }
 
 /*Tablet view Portrait*/
@@ -519,7 +511,7 @@ a, a:hover{
 		width: 60%;
 	}
 	.ltr-section{
-		background: url(../images/aayudh/ayudh2.jpg) no-repeat center center fixed;
+		background: url(../images/aayudh/ayudh-min.jpg) no-repeat center center fixed;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -541,10 +533,6 @@ a, a:hover{
 		font-size: 5vw;
 		top:30%;
 	}
-
-
-
-
 }
 
 /*Tablet view*/
@@ -565,7 +553,7 @@ a, a:hover{
 		width: 40%;
 	}
 	.ltr-section{
-		background: url(../images/aayudh/ayudh2.jpg) no-repeat center center fixed;
+		background: url(../images/aayudh/ayudh-min.jpg) no-repeat center center fixed;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -574,5 +562,7 @@ a, a:hover{
 		height: 100%;
 		text-align: center;
 	}
-
+	.day_one_details{
+		font-size: 2em;
+	}
 }
