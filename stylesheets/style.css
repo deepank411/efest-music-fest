@@ -422,6 +422,19 @@ a, a:hover{
 
 /*Mobile view portrait*/
 @media only screen and (max-width: 480px) and (orientation: portrait) {
+
+	.loader{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: url("../images/rajasthan1.jpg") no-repeat center center;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		height: 100%;
+	}
+
 	.efest-logo{
 		max-width: 100%;
 		width: 50%;
@@ -469,6 +482,17 @@ a, a:hover{
 
 /*Mobile View Landscape*/
 @media only screen and (max-width: 768px) and (orientation: landscape) {
+	.loader{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: url("../images/rajasthan1.jpg") no-repeat center center;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		height: 100%;
+	}
 	.efest-logo{
 		max-width: 100%;
 		width: 30%;
