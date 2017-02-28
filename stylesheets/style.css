@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Euphoria+Script');
 
 html, body{
 	height: 100%;
@@ -68,65 +69,17 @@ a, a:hover{
 	margin-top:2%;
 }
 
-@media only screen and (min-width: 1024px) {
-	.efest-logo{
-		max-width: 100%;
-		width: 25%;
-		height: auto;
-		position:relative;
-		margin-top:2%;
-	}
-}
-
-/*Mobile view portrait*/
-@media only screen and (max-width: 480px) and (orientation: portrait) {
-	.efest-logo{
-		max-width: 100%;
-		width: 50%;
-		height: auto;
-		position:relative;
-		margin-top:20%;
-
-	}
-	.loader img {display:none;}
-}
-
-@media only screen and (max-width: 768px) and (orientation: landscape) {
-	.efest-logo{
-		max-width: 100%;
-		width: 30%;
-		height: auto;
-		position:relative;
-		margin-top:5%;
-	}
-	.loader img {display:none;}
-}
-
-/*Tablet view Portrait*/
-@media only screen and (max-width: 1024px) and (min-width : 768px ) and (orientation: portrait) {
-	.efest-logo{
-		max-width: 100%;
-		width: 40%;
-		height: auto;
-		position:relative;
-		margin-top:10%;
-	}
-
-}
-
-/*Tablet view*/
-@media only screen and (max-width: 1024px) and (min-width : 768px ) and (orientation: landscape) {
-	.efest-logo{
-		max-width: 100%;
-		width: 30%;
-		height: auto;
-		position: relative;
-		margin-top: 7%;
-	}
-
-}
 
 /* Day One Section One Styling Start*/
+
+.day_one_details	{
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 80%;
+	font-size: 2vw;
+}
 
 .ltr-section{
 	background: url('../images/aayudh/ayudh1.jpg') no-repeat center center fixed;
@@ -202,16 +155,18 @@ a, a:hover{
 	height: 100vh;
 }
 
-.local-train-logo img{
+.ayudh_logo img{
 	display:none;
 }
-.local-train-logo img{
+.ayudh_logo img{
 	width: 60%;
 }
 
-@media only screen and (max-width: 992px) and (orientation: portrait) {
+@media only screen and (max-width: 992px){
 
-	.local-train-logo img{
+
+
+	.ayudh_logo img{
 		display: block;
 		position: relative;
 		padding-top: 20%;
@@ -220,7 +175,7 @@ a, a:hover{
 	}
 
 	.ltr-section{
-		background: url(../images/the_local_train.jpg) no-repeat center center fixed;
+		background: url(../images/aayudh/ayudh2.jpg) no-repeat center center fixed;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -232,9 +187,28 @@ a, a:hover{
 
 }
 
+
+
+
 /* Day One Section One Styling End*/
 
 /* Day Two Section One Styling Start*/
+
+.day_two_name{
+	font-size: 3em;
+	color:black;
+	font-family: 'Euphoria Script', cursive;
+}
+
+.day_two_details{
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top:18%;
+	font-size: 2vw;
+	color:black;
+}
 
 .euphoria-section{
 	background: url(../images/euphoriaBackground.jpg) no-repeat center center fixed;
@@ -281,17 +255,29 @@ a, a:hover{
 
 #svgWrapper {
 	position: relative;
-	top: 20%;
 	margin: 15px;
 	display: inline-block;
-	width: 1vw;
+	width: 1.5vw;
 	height:auto;
-	cursor: pointer;
+	cursor:;
+}
+#svgWrapper .svgWrapperI {
+	margin: 0 -40px 0 -20px;
+	width: ;
 }
 #svgWrapper svg {
 	stroke-width: 17;
 	width: 33vw;
 	height:100%;
+	-webkit-transition: -webkit-transform .5s ease-out;
+	transition: -webkit-transform .5s ease-out;
+	transition: transform .5s ease-out;
+	transition: transform .5s ease-out, -webkit-transform .5s ease-out;
+}
+#svgWrapper .svgWrapperI svg {
+	stroke-width: 17;
+	width: 33vw;
+	height:auto;
 	-webkit-transition: -webkit-transform .5s ease-out;
 	transition: -webkit-transform .5s ease-out;
 	transition: transform .5s ease-out;
@@ -434,3 +420,159 @@ a, a:hover{
 	}
 }
 /* Day Two Section One Styling End*/
+
+@media only screen and (min-width: 1024px) {
+	.efest-logo{
+		max-width: 100%;
+		width: 25%;
+		height: auto;
+		position:relative;
+		margin-top:2%;
+	}
+}
+
+/*Mobile view portrait*/
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+	.efest-logo{
+		max-width: 100%;
+		width: 50%;
+		height: auto;
+		position:relative;
+		margin-top:20%;
+	}
+
+	.day_one_details	{
+		font-size: 6vw;
+	}
+
+	.loader img {display:none;}
+
+	.ayudh_logo img{
+		max-width: 100%;
+
+		display: block;
+		position: absolute;
+		padding-top: 30%;
+		left:20%;
+		height: auto;
+		width: 60%;
+	}
+	.ltr-section{
+		background: url(../images/aayudh/ayudh2.jpg) no-repeat center center fixed;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		color: white;
+		height: 100%;
+		text-align: center;
+	}
+
+	.day_two_name{
+		font-size: 7em;
+		color:black;
+	}
+	.day_two_details	{
+		font-size: 7vw;
+		top:40%;
+	}
+}
+
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+	.efest-logo{
+		max-width: 100%;
+		width: 30%;
+		height: auto;
+		position:relative;
+		margin-top:5%;
+	}
+	.loader img {display:none;}
+	.ayudh_logo img{
+		display: block;
+		position: absolute;
+		padding-top: 7%;
+		left:33%;
+		height: auto;
+		width:35%;
+	}
+	.ltr-section{
+		background: url(../images/aayudh/ayudh2.jpg) no-repeat center center fixed;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		color: white;
+		height: 100%;
+		text-align: center;
+	}
+	
+}
+
+/*Tablet view Portrait*/
+@media only screen and (max-width: 1024px) and (min-width : 768px ) and (orientation: portrait) {
+	.ayudh_logo img{
+		display: block;
+		position: absolute;;
+		padding-top: 20%;
+		left:20%;
+		height: auto;
+		width: 60%;
+	}
+	.ltr-section{
+		background: url(../images/aayudh/ayudh2.jpg) no-repeat center center fixed;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		color: white;
+		height: 100%;
+		text-align: center;
+	}
+	.day_one_details	{
+		font-size: 5vw;
+	}
+
+	.day_two_name{
+		font-size: 8em;
+		color:black;
+	}
+
+	.day_two_details	{
+		font-size: 5vw;
+		top:30%;
+	}
+
+
+
+
+}
+
+/*Tablet view*/
+@media only screen and (max-width: 1024px) and (min-width : 768px ) and (orientation: landscape) {
+	.efest-logo{
+		max-width: 100%;
+		width: 30%;
+		height: auto;
+		position: relative;
+		margin-top: 7%;
+	}
+	.ayudh_logo img{
+		display: block;
+		position: absolute;;
+		padding-top: 10%;
+		left:30%;
+		height: auto;
+		width: 40%;
+	}
+	.ltr-section{
+		background: url(../images/aayudh/ayudh2.jpg) no-repeat center center fixed;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		color: white;
+		height: 100%;
+		text-align: center;
+	}
+
+}
